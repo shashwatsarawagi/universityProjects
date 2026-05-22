@@ -38,3 +38,6 @@ Hence, my Trader class will:
     - trade_qty < 0 -> SELL |trade_qty| shares at a price ≥ price_limit
 
 Dependencies: torch, torch.nn, numpy, scipy (optional for IC metric)
+
+
+Simple pipeline: data feeds into trainer, which uses ACT model to inform the decisions of the trader.
