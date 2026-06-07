@@ -23,4 +23,5 @@ The books that created this part of the repository are as follows
 1. Python for Algorithmic Trading by Yves Hilpisch: The code from this book is very straightforward, hence not included in this repository as the replication would be almost identical. That would, naturally, be a violation of its copyright. Nonetheless, an important founding brick for my understanding.
 2. Algorithmic Trading: Winning Strategies and Their Rationale by Ernest Chan: This book pushed my understanding a lot more than the first book. I was forced to dig deeper into each function I implemented since the book relied heavily on MATLAB, while I programmed in Python. A lot of times, Chan also spoke of concepts without direct MATLAB implementation making me write my own code from scratch. This was also done over a much longer time due to limited access to this book (owing to irregular visits to the British Library). While I only programmed a few of his discussions, I did read the others in equal depth but did not find as much value in programming them.
 
-## Papers
+## Papers (Read descriptions in respective READMEs
+1. ACT: Anti-Crosstalk Learning for Cross-Sectional Stock Ranking Implementation of the ACT framework proposed by Juntao Li and Liang Zhang.
