@@ -27,7 +27,7 @@ Now, for the loss function, the paper combines IC and MSE loss justifying this a
 where $`\lambda\in[0, 1]`$
 
 Trading strategy (backtesting, as in the paper):
-At the end of each day, ACT outputs a score vector $`\hat{y}\in\\mathbb{R}^N`$ for all $`N`$ stocks.
+At the end of each day, ACT outputs a score vector $`\hat{y}\in\mathbb{R}^N`$ for all $`N`$ stocks.
 The strategy is a long-only TopK-Dropout portfolio ($`K=50`$, drop $`N_{\text{drop}}=5`$ each rebalance).
 Hence, my Trader class will:
 - Ranks all stocks by their predicted score.
