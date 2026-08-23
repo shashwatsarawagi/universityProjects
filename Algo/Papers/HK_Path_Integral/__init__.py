@@ -16,11 +16,11 @@ formula) into ordinary numerical Python so the results can be explored,
 plotted, and sanity-checked against each other.
 """
 
-from .kernel import GaussianKernel
-from .evolution import EvolutionOperator
-from .black_scholes import black_scholes_call, black_scholes_put, call_delta, call_gamma
-from .exotic import digital_call_price, prob_stay_below_barrier
-from .chernoff import chernoff_convolution_check
+from kernel import GaussianKernel
+from evolution import EvolutionOperator
+from black_scholes import black_scholes_call, black_scholes_put, call_delta, call_gamma
+from exotic import digital_call_price, prob_stay_below_barrier
+from chernoff import chernoff_convolution_check
 
 __all__ = [
     "GaussianKernel",
